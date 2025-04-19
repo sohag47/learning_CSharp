@@ -55,8 +55,8 @@ namespace learning_CSharp
             //        break;
             //}
 
-            ArrayOperations.Show();
-
+            //ArrayOperations.Show();
+            StringOperation.Show();
         }
     }
 }
