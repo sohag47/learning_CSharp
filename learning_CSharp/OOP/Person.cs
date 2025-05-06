@@ -8,6 +8,10 @@ namespace learning_CSharp.OOP
 {
     class Person
     {
+        /// <summary>
+        /// public fields read and write outside the class
+        /// private fields not read and write outside the class
+        /// </summary>
         public int id;
         public string name;
         public int age;

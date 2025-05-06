@@ -19,7 +19,14 @@ namespace learning_CSharp
 
             Person user2 = new(2, "Miraz", 30);
             user2.Profile();
-           
+
+            User user = new();
+            user.Uuid ="hjobrol";
+            Console.WriteLine(user.Uuid);
+            user.IsAdmin = true;
+            Console.WriteLine(user.IsAdmin);
+
+
         }
     }
 }
