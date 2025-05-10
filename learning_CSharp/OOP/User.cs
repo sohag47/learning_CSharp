@@ -1,4 +1,5 @@
-﻿using System;
+﻿using learning_CSharp.OOP.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,16 +7,19 @@ using System.Threading.Tasks;
 
 namespace learning_CSharp.OOP
 {
-    class User
+    class User(int _id, string _name, string _email) : IUser, ISecond
     {
-        private string uuid; // field
+        public int ID { get; set; } = _id;
+        public string Name { get; set; } = _name;
+        public string Email { get; set; } = _email;
 
-        public string Uuid // property
+        public string Profile()
         {
-            get { return uuid; } // method
-            set { uuid = value; } // method
+            return $"ID: {ID}, Name: {Name}, Email: {Email}";
         }
-        public bool IsAdmin { get; set; } // Automatic Properties (Short Hand)
-
+        public void Second()
+        {
+            Console.WriteLine("Seond Interface");
+        }
     }
 }
