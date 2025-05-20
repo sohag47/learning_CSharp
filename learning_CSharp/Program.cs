@@ -16,33 +16,7 @@ namespace learning_CSharp
     {
         static void Main()
         {
-            //Person user1 = new Person(1, "Minhazul", 10);
-            //user1.Profile();
-
-
-            //Person user2 = new(2, "Miraz", 30);
-            //user2.Profile();
-
-            //User user = new(1,"Sohag","sohag@emial.com");
-            //Console.WriteLine(user.Profile());
-            //user.Second();
-
-            //ELevel medium_label = ELevel.Medium;
-            //switch (medium_label) 
-            //{
-            //    case ELevel.Low:
-            //        Console.WriteLine($"Low: {ELevel.Low}");
-            //        break;
-
-            //    case ELevel.Medium:
-            //        Console.WriteLine($"Medium: {ELevel.Medium}");
-            //        break;
-            //    case ELevel.High:
-            //        Console.WriteLine($"High: {ELevel.High}");
-            //        break;
-            //}
-
-            ListsArray.Show();
+            GenericType.Implements();
         }
     }
 }
