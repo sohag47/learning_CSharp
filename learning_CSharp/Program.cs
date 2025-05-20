@@ -16,7 +16,7 @@ namespace learning_CSharp
     {
         static void Main()
         {
-            GenericType.Implements();
+            ExceptionHandling.Show();
         }
     }
 }
