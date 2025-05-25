@@ -17,14 +17,17 @@ namespace learning_CSharp
     {
         static void Main()
         {
-            Dog dog = new();
-            dog.MakeSound();
-            dog.Eat();
+            IPrintable[] printables = new IPrintable[1];
+            printables[0] = new Book("First Book", "Sohag");
 
+            foreach(IPrintable item in printables)
+            {
+                item.PrintDetails();
+                item.LogError("Something went wrong!");
+            }
 
-            Cat cat = new();
-            cat.MakeSound();
-            cat.Eat();
+            //Book book = new("First Book", "Sohag");
+            //book.PrintDetails();
         }
     }
 }
