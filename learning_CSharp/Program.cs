@@ -1,14 +1,13 @@
-﻿using learning_CSharp.OOP;
+﻿
+using learning_CSharp.Database;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using learning_CSharp.OOP;
-using System.Reflection.Emit;
-using learning_CSharp.Array;
 
 namespace learning_CSharp
 {
@@ -16,7 +15,7 @@ namespace learning_CSharp
     {
         static void Main()
         {
-            ExceptionHandling.Show();
+            DB.Show();
         }
     }
 }
