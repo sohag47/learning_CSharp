@@ -8,6 +8,8 @@ using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using learning_CSharp.OOP;
+
 
 namespace learning_CSharp
 {
@@ -15,7 +17,14 @@ namespace learning_CSharp
     {
         static void Main()
         {
-            DB.Show();
+            Dog dog = new();
+            dog.MakeSound();
+            dog.Eat();
+
+
+            Cat cat = new();
+            cat.MakeSound();
+            cat.Eat();
         }
     }
 }
