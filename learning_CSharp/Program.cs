@@ -8,7 +8,7 @@ using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using learning_CSharp.OOP;
+using learning_CSharp.OOP.PartialClass;
 
 
 namespace learning_CSharp
@@ -17,8 +17,9 @@ namespace learning_CSharp
     {
         static void Main()
         {
-            Student student = new Student("sohag");
-            
+            Student student = new();
+            student.SayHello();
+            student.SayBye();
         }
     }
 }
