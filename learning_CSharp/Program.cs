@@ -1,5 +1,5 @@
 ﻿
-using learning_CSharp.Database;
+using learning_CSharp.Generics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,6 @@ using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using learning_CSharp.OOP.PartialClass;
 
 
 namespace learning_CSharp
@@ -17,9 +16,23 @@ namespace learning_CSharp
     {
         static void Main()
         {
-            Student student = new();
-            student.SayHello();
-            student.SayBye();
+            Repository<Student> studentRepo = new Repository<Student>();
+            Student s1 = new() { Id = 1, Name = "Rakib" };
+            Student s2 = new () { Id = 2, Name = "Mahi" };
+
+            studentRepo.Add(s1); 
+            studentRepo.Add(s2);
+
+            studentRepo.PrintAll();
+
+            Student newStudent = studentRepo.CreateNew();
+            Console.WriteLine($"🆕 Created new student (empty): {newStudent}");
+
+            Console.WriteLine();
+
+            // Using struct-specific class
+            StructHandler<Point> pointHandler = new StructHandler<Point>();
+            pointHandler.ShowDefault();
         }
     }
 }
