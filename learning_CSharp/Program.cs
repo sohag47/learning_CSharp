@@ -17,17 +17,8 @@ namespace learning_CSharp
     {
         static void Main()
         {
-            IPrintable[] printables = new IPrintable[1];
-            printables[0] = new Book("First Book", "Sohag");
-
-            foreach(IPrintable item in printables)
-            {
-                item.PrintDetails();
-                item.LogError("Something went wrong!");
-            }
-
-            //Book book = new("First Book", "Sohag");
-            //book.PrintDetails();
+            Student student = new Student("sohag");
+            
         }
     }
 }
