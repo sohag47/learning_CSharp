@@ -1,4 +1,5 @@
 ﻿
+using learning_CSharp.AccessModifier;
 using learning_CSharp.Generics;
 using System;
 using System.Collections.Generic;
@@ -16,23 +17,24 @@ namespace learning_CSharp
     {
         static void Main()
         {
-            Repository<Student> studentRepo = new Repository<Student>();
-            Student s1 = new() { Id = 1, Name = "Rakib" };
-            Student s2 = new () { Id = 2, Name = "Mahi" };
+            //Repository<Student> studentRepo = new Repository<Student>();
+            //Student s1 = new() { Id = 1, Name = "Rakib" };
+            //Student s2 = new () { Id = 2, Name = "Mahi" };
 
-            studentRepo.Add(s1); 
-            studentRepo.Add(s2);
+            //studentRepo.Add(s1); 
+            //studentRepo.Add(s2);
 
-            studentRepo.PrintAll();
+            //studentRepo.PrintAll();
 
-            Student newStudent = studentRepo.CreateNew();
-            Console.WriteLine($"🆕 Created new student (empty): {newStudent}");
+            //Student newStudent = studentRepo.CreateNew();
+            //Console.WriteLine($"🆕 Created new student (empty): {newStudent}");
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            // Using struct-specific class
-            StructHandler<Point> pointHandler = new StructHandler<Point>();
-            pointHandler.ShowDefault();
+            //// Using struct-specific class
+            //StructHandler<Point> pointHandler = new StructHandler<Point>();
+            //pointHandler.ShowDefault();
+            Root root = new Root();
         }
     }
 }
