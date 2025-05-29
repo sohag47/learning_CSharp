@@ -1,7 +1,16 @@
+# C# and .NET Learning Roadmap ✅
 
-# 📘 C# Learning Roadmap
+A complete roadmap to learn **C# programming** and **.NET development** from beginner to advanced level.  
+This repository is designed to help anyone searching for a:
 
-Track your progress through essential C# concepts using this checklist roadmap.
+- 🚀 C# Roadmap
+- 💻 .NET Roadmap
+- 📘 C# Learning Path
+- 🧠 C# Study Guide
+
+📦 Covers: Basics → OOP → Collections → LINQ → Generics → ASP.NET Core → Entity Framework → Clean Architecture
+
+> This guide is structured as a Markdown checklist and updated regularly as I learn.  
 
 ---
 
