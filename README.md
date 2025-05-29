@@ -6,30 +6,31 @@ Track your progress through essential C# concepts using this checklist roadmap.
 ---
 
 ## ✅ Stage 1: C# Foundations
-
-- [ ] Understand Predefined Types
-  - [ ] Value Types (int, float, char, etc.)
-  - [ ] Reference Types (string, object)
-- [ ] Type Conversions
-- [ ] Control Flow Statements
-  - [ ] if-else
-  - [ ] switch
+- [X]  Input / Output processing.
+- [X] Understand Predefined Types
+  - [X] Value Types (int, float, char, etc.)
+  - [X] Reference Types (string, object)
+  
+- [X] Type Conversions
+- [X] Control Flow Statements
+  - [X] if-else
+  - [X] switch
 - [ ] Loops
-  - [ ] for
-  - [ ] foreach
+  - [X] for
+  - [X] foreach
   - [ ] while
   - [ ] do-while
 - [ ] Error Handling
-  - [ ] try-catch-finally
+  - [X] try-catch-finally
 - [ ] Other Statements
   - [ ] using
   - [ ] lock
   - [ ] unsafe
   - [ ] yield
 - [ ] Operators
-  - [ ] Arithmetic
-  - [ ] Assignment
-  - [ ] Relational
+  - [X] Arithmetic
+  - [X] Assignment
+  - [X] Relational
   - [ ] Bitwise
   - [ ] Overflow/Underflow (checked/unchecked)
 
@@ -39,12 +40,28 @@ Track your progress through essential C# concepts using this checklist roadmap.
 
 - [ ] Classes and Objects
   - [ ] Fields (static, instance, readonly)
-  - [ ] Properties and Access Modifiers
-  - [ ] Methods (static, instance, override, abstract, virtual)
+  - [X] Field, properties & Auto properties: { get; set; }
+  - [X] Access Modifiers (public, private, protected, internal, protected internal, private protected)
+  - [ ] Storage & Behavior Modifiers (static, const, required, readonly, volatile, unsafe)
+  - [X] Methods (static, instance, override, abstract, virtual)
+  - [X] Method Overloading
+  - [ ] Method Override
   - [ ] Constructors (static, instance)
-- [ ] Structs and Enums
+  - [X] Constructor, Destructor/Finalizer
+  - [X] Constructor chaining
+  - [X] Static Class
+  - [X] Partial Class
+  - [X] Abstract Class
+- [ ] Structs
+- [ ] Enums
 - [ ] Inheritance and Polymorphism
 - [ ] Interfaces and Delegates
+- [X] Namespaces
+- [ ] Using Generics
+  - [ ] Generic Class, Constraints and  Generic Method
+  - [ ] Built in Generic data structures (List<T>, Dictionary<K,V>, Queue<T>, Stack<T>, HashSet<T>, SortedList<K,V>, SortedDictionary<K,V>)
+  - [ ] Concurrent Collections (for multithreading) (ConcurrentDictionary<K,V>,ConcurrentQueue<T>, ConcurrentStack<T>, BlockingCollection<T>)
+  - [ ] Non-generics collection
 
 ---
 
