@@ -6,21 +6,6 @@ using System.Threading.Tasks;
 
 namespace learning_CSharp.Generics
 {
-    public class User // Changed from 'internal' to 'public' to fix accessibility issue  
-    {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-
-        public User(int id, string name, string email)
-        {
-            ID = id;
-            Name = name;
-            Email = email;
-        }
-    }
-
-
     public static class ImplementList
     {
         public static void Print(List<User> users)
