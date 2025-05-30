@@ -77,8 +77,8 @@ This repository is designed to help anyone searching for a:
 ## 🔶 Stage 3: Collections and Data Structures
 
 - [ ] Generic Collections
-  - [ ] List
-  - [ ] Dictionary
+  - [X] List
+  - [X] Dictionary
   - [ ] Stack
   - [ ] Queue
   - [ ] SortedList
