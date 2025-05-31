@@ -15,13 +15,14 @@ This repository is designed to help anyone searching for a:
 ---
 
 ## ✅ Stage 1: C# Foundations
-- [X]  Input / Output processing.
-- [X] Understand Predefined Types
+  ### 1.1 Input / Output processing & Variables.
+  ### 1.2 Understand Predefined Types
   - [X] Value Types (int, float, char, etc.)
   - [X] Reference Types (string, object)
   
-- [X] Type Conversions
-- [X] Control Flow Statements
+  ## 1.3 Type Conversions
+  ## 1.4 Nullable types
+  ## 1.5 Control Flow Statements
   - [X] if-else
   - [X] switch
 - [ ] Loops
@@ -29,14 +30,14 @@ This repository is designed to help anyone searching for a:
   - [X] foreach
   - [ ] while
   - [ ] do-while
-- [ ] Error Handling
+ ## 1.6 Error Handling
   - [X] try-catch-finally
 - [ ] Other Statements
   - [ ] using
   - [ ] lock
   - [ ] unsafe
   - [ ] yield
-- [ ] Operators
+ ## 1.7 Operators
   - [X] Arithmetic
   - [X] Assignment
   - [X] Relational
