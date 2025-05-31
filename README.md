@@ -16,12 +16,21 @@ This repository is designed to help anyone searching for a:
 
 ## ✅ Stage 1: C# Foundations
   ### 1.1 Input / Output processing & Variables.
+    Console.Write("What is your name?"); // With newline
+    string name = Console.ReadLine();
+    Console.WriteLine(name);
   ### 1.2 Understand Predefined Types
   - [X] Value Types (int, float, char, etc.)
   - [X] Reference Types (string, object)
   
   ## 1.3 Type Conversions
+    string input = "123";
+    int number = Convert.ToInt32(input);
+    double d = Convert.ToDouble("3.14");
+    bool b = Convert.ToBoolean("true");
   ## 1.4 Nullable types
+    int? number = null;
+    int result = number ?? 0;
   ## 1.5 Control Flow Statements
   - [X] if-else
   - [X] switch
