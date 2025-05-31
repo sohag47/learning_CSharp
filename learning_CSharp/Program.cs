@@ -17,7 +17,7 @@ namespace learning_CSharp
     {
         static void Main()
         {
-            ExceptionHandling.Show();
+            LambdaExpressions.Show();
         }
     }
 }
