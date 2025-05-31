@@ -109,9 +109,9 @@ This repository is designed to help anyone searching for a:
 
 ---
 ## 4: Exception Handling
-  - [ ] try, catch, finally
-  - [ ] Custom Exceptions
-  - [ ] throw keyword
+  - [X] try, catch, finally
+  - [X] Custom Exceptions
+  - [X] throw keyword
   - [ ] Exception filters
 ---
 
