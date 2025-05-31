@@ -76,12 +76,13 @@ This repository is designed to help anyone searching for a:
 
 ## 🔶 Stage 3: Collections and Data Structures
 
-- [ ] Generic Collections
-  - [ ] List
-  - [ ] Dictionary
-  - [ ] Stack
-  - [ ] Queue
-  - [ ] SortedList
+- [ ] Generic Collections (System.Collections.Generic)
+  - [X] List<T>
+  - [X] Dictionary<TKey, TValue>
+  - [ ] Queue<T>
+  - [ ] Stack<T>
+  - [ ] HashSet<T>
+  - [ ] LinkedList<T>
 - [ ] Non-generic Collections
   - [ ] ArrayList
   - [ ] Hashtable
