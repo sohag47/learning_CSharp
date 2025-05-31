@@ -109,9 +109,9 @@ This repository is designed to help anyone searching for a:
 
 ---
 ## 4: Exception Handling
-  - [ ] try, catch, finally
-  - [ ] Custom Exceptions
-  - [ ] throw keyword
+  - [X] try, catch, finally
+  - [X] Custom Exceptions
+  - [X] throw keyword
   - [ ] Exception filters
 ---
 
@@ -149,7 +149,7 @@ This repository is designed to help anyone searching for a:
 ---
 
 ## 6: Advanced Concepts
-- [ ] Lambda Expressions
+- [X] Lambda Expressions
 - [ ] Delegates
 - [ ] Events
 - [ ] Extension Methods
