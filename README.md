@@ -168,3 +168,31 @@ This repository is designed to help anyone searching for a:
 - [ ] Parallel.For, Parallel LINQ (PLINQ)
 - [ ] CancellationToken
 ---
+## 8. Reflection & Attributes
+- [ ] System.Reflection
+- [ ] Reading metadata
+- [ ] Custom Attributes
+- [ ] typeof, GetType()
+---
+## 9. Memory Management
+- [ ] Value Types vs Reference Types
+- [ ] Stack vs Heap
+- [ ] Garbage Collection
+- [ ] IDisposable and using statement
+- [ ] Finalizers
+---
+## 10. Miscellaneous
+- [ ] Tuples
+- [ ] Records (C# 9+)
+- [ ] Dynamic Type
+- [ ] var, dynamic, object differences
+- [ ] enum and struct
+- [ ] nameof operator
+- [ ] Top-level statements (C# 9+)
+---
+## 11. File I/O and Serialization
+- [ ] Reading/Writing Files (System.IO)
+- [ ] StreamReader / StreamWriter
+- [ ] Binary and XML Serialization
+- [ ] JSON Serialization (System.Text.Json, Newtonsoft.Json)
+---
