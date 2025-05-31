@@ -89,37 +89,37 @@ This repository is designed to help anyone searching for a:
   - [ ] SortedList
   - [ ] Stack
   - [ ] Queue
-- [ ] Arrays
-  - [ ] Single-dimensional Arrays
-  - [ ] Multi-dimensional Arrays
+- [X] Arrays
+  - [X] Single-dimensional Arrays
+  - [X] Multi-dimensional Arrays
 
 ---
 
 ## 🟡 Stage 4: LINQ (Language Integrated Query)
 
-- [ ] Basic LINQ Concepts
-  - [ ] Select
-  - [ ] Where
-  - [ ] OrderBy
-  - [ ] GroupBy
-- [ ] Aggregation & Set Operations
-  - [ ] Sum
-  - [ ] Count
-  - [ ] Min/Max
-  - [ ] Intersect
-  - [ ] Union
-  - [ ] Except
-- [ ] Element Operators
-  - [ ] First
-  - [ ] Last
-  - [ ] Single
-  - [ ] ElementAt
-- [ ] Filtering and Conversion
-  - [ ] OfType
-  - [ ] Cast
-  - [ ] ToList
-  - [ ] ToArray
-  - [ ] ToDictionary
+- [X] Basic LINQ Concepts
+  - [X] Select
+  - [X] Where
+  - [X] OrderBy
+  - [X] GroupBy
+- [X] Aggregation & Set Operations
+  - [X] Sum
+  - [X] Count
+  - [X] Min/Max
+  - [X] Intersect
+  - [X] Union
+  - [X] Except
+- [X] Element Operators
+  - [X] First
+  - [X] Last
+  - [X] Single
+  - [X] ElementAt
+- [X] Filtering and Conversion
+  - [X] OfType
+  - [X] Cast
+  - [X] ToList
+  - [X] ToArray
+  - [X] ToDictionary
 
 ---
 
