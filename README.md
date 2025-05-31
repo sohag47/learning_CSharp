@@ -14,7 +14,7 @@ This repository is designed to help anyone searching for a:
 
 ---
 
-## ✅ Stage 1: C# Foundations
+## 1: C# Foundations
   ### 1.1 Input / Output processing & Variables.
     Console.Write("What is your name?"); // With newline
     string name = Console.ReadLine();
@@ -31,7 +31,7 @@ This repository is designed to help anyone searching for a:
   ### 1.4 Nullable types
     int? number = null;
     int result = number ?? 0;
-  ## 1.5 Control Flow Statements
+  ### 1.5 Control Flow Statements
   - [X] if-else
   - [X] switch
 - [ ] Loops
@@ -55,9 +55,13 @@ This repository is designed to help anyone searching for a:
 
 ---
 
-## 🔷 Stage 2: OOP in C#
+## 2: OOP in C#
 
-- [ ] Classes and Objects
+  - [X] Classes and Objects
+  - [X] Constructor, Destructor/Finalizer
+  - [ ] Inheritance
+  - [ ] Polymorphism (compile time & run time)
+  - [ ] this & base keyword
   - [ ] Fields (static, instance, readonly)
   - [X] Field, properties & Auto properties: { get; set; }
   - [X] Access Modifiers (public, private, protected, internal, protected internal, private protected)
@@ -66,14 +70,14 @@ This repository is designed to help anyone searching for a:
   - [X] Method Overloading
   - [ ] Method Override
   - [ ] Constructors (static, instance)
-  - [X] Constructor, Destructor/Finalizer
   - [X] Constructor chaining
   - [X] Static Class
-  - [X] Partial Class
+  - [X] Partial Class & Partial Methods
   - [X] Abstract Class
+  
 - [ ] Structs
 - [ ] Enums
-- [ ] Inheritance and Polymorphism
+
 - [ ] Interfaces and Delegates
 - [X] Namespaces
 - [ ] Using Generics
@@ -84,7 +88,7 @@ This repository is designed to help anyone searching for a:
 
 ---
 
-## 🔶 Stage 3: Collections and Data Structures
+## 3: Collections and Data Structures
 
 - [ ] Generic Collections (System.Collections.Generic)
   - [X] List<T>
@@ -104,8 +108,14 @@ This repository is designed to help anyone searching for a:
   - [X] Multi-dimensional Arrays
 
 ---
+## 4: Exception Handling
+  - [ ] try, catch, finally
+  - [ ] Custom Exceptions
+  - [ ] throw keyword
+  - [ ] Exception filters
+---
 
-## 🟡 Stage 4: LINQ (Language Integrated Query)
+## 5: LINQ (Language Integrated Query)
 
 - [X] Basic LINQ Concepts
   - [X] Select
@@ -130,16 +140,31 @@ This repository is designed to help anyone searching for a:
   - [X] ToList
   - [X] ToArray
   - [X] ToDictionary
-
----
-
-## 🔴 Stage 5: Advanced Concepts
-
-- [ ] Lambda Expressions
 - [ ] LINQ Projection & Quantification
   - [ ] SelectMany
   - [ ] All
   - [ ] Any
   - [ ] Contains
+- [ ] yield return
+---
 
+## 6: Advanced Concepts
+- [ ] Lambda Expressions
+- [ ] Delegates
+- [ ] Events
+- [ ] Extension Methods
+- [ ] Anonymous Methods
+- [ ] ref, out, in keyword
+- [ ] params keyword
+- [ ] Nullable reference types (?, ??, ??=, ?.)
+- [ ] Pattern Matching (with is, switch, etc.)
+---
+## 7. Multithreading and Asynchronous Programming
+- [ ] Threads
+- [ ] Tasks and Task<T>
+- [ ] async / await
+- [ ] Thread.Sleep, Task.Delay
+- [ ] lock keyword
+- [ ] Parallel.For, Parallel LINQ (PLINQ)
+- [ ] CancellationToken
 ---
