@@ -79,6 +79,9 @@ namespace learning_CSharp.LINQ
             var dict = products.ToDictionary(p => p.Name, p => p.Price);
 
             Console.WriteLine(dict["Pen"]);
+
+            var enumerable = products.AsEnumerable();
+            var queryable = products.AsQueryable();
         }
     }
 }
