@@ -1,6 +1,7 @@
 ﻿
 
 using learning_CSharp.Generics;
+using learning_CSharp.LINQ;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,7 @@ namespace learning_CSharp
     {
         static void Main()
         {
-            ImplementDictionary.Execute();
+            ImplementLinq.Execute();
         }
     }
 }
