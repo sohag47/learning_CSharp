@@ -149,7 +149,7 @@ This repository is designed to help anyone searching for a:
 ---
 
 ## 6: Advanced Concepts
-- [ ] Lambda Expressions
+- [X] Lambda Expressions
 - [ ] Delegates
 - [ ] Events
 - [ ] Extension Methods
