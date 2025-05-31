@@ -23,12 +23,12 @@ This repository is designed to help anyone searching for a:
   - [X] Value Types (int, float, char, etc.)
   - [X] Reference Types (string, object)
   
-  ## 1.3 Type Conversions
+  ### 1.3 Type Conversions
     string input = "123";
     int number = Convert.ToInt32(input);
     double d = Convert.ToDouble("3.14");
     bool b = Convert.ToBoolean("true");
-  ## 1.4 Nullable types
+  ### 1.4 Nullable types
     int? number = null;
     int result = number ?? 0;
   ## 1.5 Control Flow Statements
@@ -39,14 +39,14 @@ This repository is designed to help anyone searching for a:
   - [X] foreach
   - [ ] while
   - [ ] do-while
- ## 1.6 Error Handling
+ ### 1.6 Error Handling
   - [X] try-catch-finally
 - [ ] Other Statements
   - [ ] using
   - [ ] lock
   - [ ] unsafe
   - [ ] yield
- ## 1.7 Operators
+ ### 1.7 Operators
   - [X] Arithmetic
   - [X] Assignment
   - [X] Relational
