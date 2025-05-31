@@ -89,9 +89,9 @@ This repository is designed to help anyone searching for a:
   - [ ] SortedList
   - [ ] Stack
   - [ ] Queue
-- [ ] Arrays
-  - [ ] Single-dimensional Arrays
-  - [ ] Multi-dimensional Arrays
+- [X] Arrays
+  - [X] Single-dimensional Arrays
+  - [X] Multi-dimensional Arrays
 
 ---
 
