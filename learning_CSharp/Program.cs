@@ -15,9 +15,16 @@ namespace learning_CSharp
 {
     class Program
     {
-        static void Main()
+        static async Task Main()
         {
-            LambdaExpressions.Show();
+            // multiple task calling
+            //await ImplementAsynchronous.GetDataAsync1();
+            //await ImplementAsynchronous.GetDataAsync2();
+
+            // with WhenAll
+            var task1 = ImplementAsynchronous.GetDataAsync1();
+            var task2 = ImplementAsynchronous.GetDataAsync2();
+            await Task.WhenAll(task1, task2);
         }
     }
 }
