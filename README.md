@@ -76,7 +76,7 @@ This repository is designed to help anyone searching for a:
   - [X] Abstract Class
   
 - [ ] Structs
-- [ ] Enums
+- [X] Enums
 
 - [ ] Interfaces and Delegates
 - [X] Namespaces
