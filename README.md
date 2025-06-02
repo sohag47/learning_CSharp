@@ -198,30 +198,30 @@ This repository is designed to help anyone searching for a:
 ---
 # .NET Topics
 ## .NET Fundamentals
-  - [ ] What is .NET / .NET Core / .NET 5/6/7/8?
-  - [ ] CLR (Common Language Runtime)
-  - [ ] CTS, CLS (Common Type System, Common Language Specification)
-  - [ ] Project Types: Console App, Class Library, ASP.NET Web App
-  - [ ] Solution (.sln) and Project (.csproj) files
-  - [ ] Understanding the build and run lifecycle
+  - [X] What is .NET / .NET Core / .NET 5/6/7/8?
+  - [X] CLR (Common Language Runtime)
+  - [X] CTS, CLS (Common Type System, Common Language Specification)
+  - [X] Project Types: Console App, Class Library, ASP.NET Web App
+  - [X] Solution (.sln) and Project (.csproj) files
+  - [X] Understanding the build and run lifecycle
 ## Working with Projects
-  - [ ] Creating and running projects with dotnet CLI
-  - [ ] Adding NuGet packages (dotnet add package)
-  - [ ] appsettings.json configuration
+  - [X] Creating and running projects with dotnet CLI
+  - [X] Adding NuGet packages (dotnet add package)
+  - [X] appsettings.json configuration
   - [ ] Environments (Development, Production, etc.)
 ## ASP.NET Core Web Applications
-  - [ ] MVC Pattern (Model-View-Controller)
-  - [ ] Razor Views & Razor Pages
+  - [X] MVC Pattern (Model-View-Controller)
+  - [X] Razor Views & Razor Pages
   - [ ] Middleware and Request Pipeline
-  - [ ] Routing and Endpoints
+  - [X] Routing and Endpoints
   - [ ] Static Files and Hosting
 
 ## Web APIs with ASP.NET Core
-  - [ ] Creating RESTful APIs with Controllers
-  - [ ] Attribute Routing ([HttpGet], [HttpPost])
-  - [ ] Model Binding and Validation ([FromBody], ModelState)
-  - [ ] JSON Serialization (System.Text.Json)
-  - [ ] Swagger/OpenAPI Integration
+  - [X] Creating RESTful APIs with Controllers
+  - [X] Attribute Routing ([HttpGet], [HttpPost])
+  - [X] Model Binding and Validation ([FromBody], ModelState)
+  - [X] JSON Serialization (System.Text.Json)
+  - [X] Swagger/OpenAPI Integration
 ## Dependency Injection (DI)
   - [ ] Constructor Injection
   - [ ] AddTransient, AddScoped, AddSingleton
@@ -233,16 +233,19 @@ This repository is designed to help anyone searching for a:
 
 ## 🔴 Advanced .NET Topics
 Entity Framework Core (EF Core)
-  - [ ] Code First vs Database First
-  - [ ] DbContext and DbSet
-  - [ ] Migrations (Add-Migration, Update-Database)
-  - [ ] Relationships (1:1, 1:N, M:N)
-  - [ ] LINQ with EF
+  - [X] Code First vs Database First
+  - [X] DbContext and DbSet
+  - [X] Migrations (Add-Migration, Update-Database)
+  - [X] Relationships (1:1, 1:N, M:N)
+  - [X] LINQ with EF
   - [ ] Eager vs Lazy Loading
   - [ ] Raw SQL Queries
 
 ## Authentication & Authorization
   - [ ] ASP.NET Core Identity
+  - [ ] OAuth
+  - [ ] Identity Server
+  - [ ] Access Mechanism
   - [ ] Role-Based and Policy-Based Authorization
   - [ ] JWT Authentication
   - [ ] Custom Authentication Handlers
@@ -266,7 +269,7 @@ Entity Framework Core (EF Core)
   - [ ] CI/CD basics with GitHub Actions, Azure DevOps, etc.
 
 ## Testing
-  - [ ] Unit Testing with xUnit / NUnit / MSTest
+  - [X] Unit Testing with xUnit / NUnit / MSTest
   - [ ] Mocking with Moq
   - [ ] Integration Testing (TestServer)
   - [ ] Testing EF Core
