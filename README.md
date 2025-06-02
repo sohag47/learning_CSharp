@@ -160,9 +160,9 @@ This repository is designed to help anyone searching for a:
 - [ ] Pattern Matching (with is, switch, etc.)
 ---
 ## 7. Multithreading and Asynchronous Programming
+- [X] async / await
+- [X] Tasks and Task<T>
 - [ ] Threads
-- [ ] Tasks and Task<T>
-- [ ] async / await
 - [ ] Thread.Sleep, Task.Delay
 - [ ] lock keyword
 - [ ] Parallel.For, Parallel LINQ (PLINQ)
@@ -196,89 +196,92 @@ This repository is designed to help anyone searching for a:
 - [ ] Binary and XML Serialization
 - [ ] JSON Serialization (System.Text.Json, Newtonsoft.Json)
 ---
-# .NET Topics
-## .NET Fundamentals
-  - [ ] What is .NET / .NET Core / .NET 5/6/7/8?
-  - [ ] CLR (Common Language Runtime)
-  - [ ] CTS, CLS (Common Type System, Common Language Specification)
-  - [ ] Project Types: Console App, Class Library, ASP.NET Web App
-  - [ ] Solution (.sln) and Project (.csproj) files
-  - [ ] Understanding the build and run lifecycle
-## Working with Projects
-  - [ ] Creating and running projects with dotnet CLI
-  - [ ] Adding NuGet packages (dotnet add package)
-  - [ ] appsettings.json configuration
+# 2 .NET Topics
+## 2.1 .NET Fundamentals
+  - [X] What is .NET / .NET Core / .NET 5/6/7/8?
+  - [X] CLR (Common Language Runtime)
+  - [X] CTS, CLS (Common Type System, Common Language Specification)
+  - [X] Project Types: Console App, Class Library, ASP.NET Web App
+  - [X] Solution (.sln) and Project (.csproj) files
+  - [X] Understanding the build and run lifecycle
+## 2.2 Working with Projects
+  - [X] Creating and running projects with dotnet CLI
+  - [X] Adding NuGet packages (dotnet add package)
+  - [X] appsettings.json configuration
   - [ ] Environments (Development, Production, etc.)
-## ASP.NET Core Web Applications
-  - [ ] MVC Pattern (Model-View-Controller)
-  - [ ] Razor Views & Razor Pages
+## 2.3 ASP.NET Core Web Applications
+  - [X] MVC Pattern (Model-View-Controller)
+  - [X] Razor Views & Razor Pages
   - [ ] Middleware and Request Pipeline
-  - [ ] Routing and Endpoints
+  - [X] Routing and Endpoints
   - [ ] Static Files and Hosting
 
-## Web APIs with ASP.NET Core
-  - [ ] Creating RESTful APIs with Controllers
-  - [ ] Attribute Routing ([HttpGet], [HttpPost])
-  - [ ] Model Binding and Validation ([FromBody], ModelState)
-  - [ ] JSON Serialization (System.Text.Json)
-  - [ ] Swagger/OpenAPI Integration
-## Dependency Injection (DI)
+## 2.4 Web APIs with ASP.NET Core
+  - [X] Creating RESTful APIs with Controllers
+  - [X] Attribute Routing ([HttpGet], [HttpPost])
+  - [X] Model Binding and Validation ([FromBody], ModelState)
+  - [X] JSON Serialization (System.Text.Json)
+  - [X] Swagger/OpenAPI Integration
+## 2.5 Dependency Injection (DI)
   - [ ] Constructor Injection
   - [ ] AddTransient, AddScoped, AddSingleton
   - [ ] Registering and Resolving Services
-## Configuration and Settings
+## 2.6 Configuration and Settings
   - [ ] IConfiguration and IOptions<T>
   - [ ] Reading from appsettings.json, environment variables
   - [ ] Strongly Typed Configuration
 
-## 🔴 Advanced .NET Topics
-Entity Framework Core (EF Core)
-  - [ ] Code First vs Database First
-  - [ ] DbContext and DbSet
-  - [ ] Migrations (Add-Migration, Update-Database)
-  - [ ] Relationships (1:1, 1:N, M:N)
-  - [ ] LINQ with EF
+# 3. Advanced .NET Topics
+## 3.1 Entity Framework Core (EF Core)
+  - [X] Code First vs Database First
+  - [X] DbContext and DbSet
+  - [X] Migrations (Add-Migration, Update-Database)
+  - [X] Relationships (1:1, 1:N, M:N)
+  - [X] LINQ with EF
   - [ ] Eager vs Lazy Loading
   - [ ] Raw SQL Queries
 
-## Authentication & Authorization
+## 3.2 Authentication & Authorization
   - [ ] ASP.NET Core Identity
+  - [ ] OAuth
+  - [ ] Identity Server
+  - [ ] Access Mechanism
   - [ ] Role-Based and Policy-Based Authorization
   - [ ] JWT Authentication
   - [ ] Custom Authentication Handlers
   - [ ] Claims and Identity Management
 
-## Middleware and Filters
+## 3.3 Middleware and Filters
   - [ ] Creating Custom Middleware
   - [ ] Exception Handling Middleware
   - [ ] Action Filters, Result Filters
 
-## Logging and Monitoring
+## 3.4 Logging and Monitoring
   - [ ] ILogger<T>
   - [ ] Logging providers: Console, Debug, File, Serilog
   - [ ] Application Insights
 
-## Hosting and Deployment
+## 3.5 Hosting and Deployment
   - [ ] Kestrel Web Server
   - [ ] IIS Integration
   - [ ] Publishing with dotnet publish
   - [ ] Dockerizing .NET Apps
   - [ ] CI/CD basics with GitHub Actions, Azure DevOps, etc.
 
-## Testing
-  - [ ] Unit Testing with xUnit / NUnit / MSTest
+## 3.6 Testing
+  - [X] Unit Testing with xUnit / NUnit / MSTest
   - [ ] Mocking with Moq
   - [ ] Integration Testing (TestServer)
   - [ ] Testing EF Core
 
-## Advanced Web API Topics
+## 3.7 Advanced Web API Topics
   - [ ] API Versioning
   - [ ] Rate Limiting
   - [ ] Throttling
   - [ ] Caching (In-memory, Distributed)
   - [ ] Uploading/Downloading files in APIs
 
-## Bonus: Architecture & Design Patterns in .NET
+## 3.8 Bonus: Architecture & Design Patterns in .NET
   - [ ] Clean Architecture / Onion Architecture
   - [ ] Repository and Unit of Work Patterns
   - [ ] CQRS & Mediator Pattern

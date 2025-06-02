@@ -15,7 +15,7 @@ namespace learning_CSharp
 {
     class Program
     {
-        static void Main()
+        static async Task Main()
         {
             ImplementEnum.Show();
         }
