@@ -160,9 +160,9 @@ This repository is designed to help anyone searching for a:
 - [ ] Pattern Matching (with is, switch, etc.)
 ---
 ## 7. Multithreading and Asynchronous Programming
+- [X] async / await
+- [X] Tasks and Task<T>
 - [ ] Threads
-- [ ] Tasks and Task<T>
-- [ ] async / await
 - [ ] Thread.Sleep, Task.Delay
 - [ ] lock keyword
 - [ ] Parallel.For, Parallel LINQ (PLINQ)
